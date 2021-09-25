@@ -48,6 +48,11 @@ const EventId = () => {
           <button onClick={incrementHandler}>+</button>
         </div>
       </div>
+      <div className={styles.button}>
+        <a href={`/checkout/1?quantity=${quantity}`} className={styles.button}>
+          CHECK OUT
+        </a>
+      </div>
     </div>
   );
 };

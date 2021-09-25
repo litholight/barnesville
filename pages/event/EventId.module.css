@@ -29,3 +29,10 @@
 .quantity {
   padding: 1rem;
 }
+
+.button {
+  background-color: #c40500;
+  color: white;
+  width: 100%;
+  padding: 0.5rem;
+}

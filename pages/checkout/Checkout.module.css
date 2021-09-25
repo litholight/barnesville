@@ -1,0 +1,10 @@
+.orderLine {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+}
+.head {
+  font-weight: bolder;
+}
+.line {
+  background-color: lightgray;
+}

@@ -9,3 +9,23 @@
 .eventSchedule {
   text-align: center;
 }
+
+.counterCounter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.counter {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+.quantity {
+  padding: 1rem;
+}

@@ -22,6 +22,16 @@ const EventId = () => {
     }
   }, [arbiterData, router]);
 
+  const decrementHandler = () => {
+    if (quantity !== 0) {
+      setQuantity(quantity - 1);
+    }
+  };
+
+  const incrementHandler = () => {
+    setQuantity(quantity + 1);
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.eventName}>
@@ -31,6 +41,13 @@ const EventId = () => {
         <h3>{eventData && eventData.schedule}</h3>
       </div>
       <div>${ticketPrice} per ticket</div>
+      <div className={styles.counterCounter}>
+        <div className={styles.counter}>
+          <button onClick={decrementHandler}>-</button>
+          <div className={styles.quantity}>{quantity}</div>
+          <button onClick={incrementHandler}>+</button>
+        </div>
+      </div>
     </div>
   );
 };

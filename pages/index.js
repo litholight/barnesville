@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.header}>
+      {/* <div className={styles.header}>
         <div className={styles.school}>
           <h1>BARNESVILLE SCHOOLS</h1>
         </div>
@@ -18,15 +18,15 @@ export default function Home() {
       <div className={styles.main}>
         <div className={styles.side}>Athletics</div>
         <div className={styles.rightmain}>
-          <h1>Tickets</h1>
-          {/* <Embed arbiterData={arbiterData} /> */}
-        </div>
+          <h1>Tickets</h1> */}
+      <Embed arbiterData={arbiterData} />
+      {/* </div>
       </div>
       <div className={styles.footer}>
         <div className={styles.school}>
           <h1>BARNESVILLE SCHOOLS</h1>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

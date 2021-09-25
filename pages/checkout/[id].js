@@ -10,7 +10,7 @@ const promise = loadStripe(
 );
 
 const Checkout = () => {
-  const [amount, setAmount] = useState(8);
+  const [amount, setAmount] = useState(60);
 
   return (
     <div>
@@ -24,13 +24,13 @@ const Checkout = () => {
         <div>
           Boys Junior Varsity Football vs. Linsly Junior Varsity Football
         </div>
-        <div>2</div>
-        <div>$8</div>
+        <div>1</div>
+        <div>$6</div>
       </div>
       <div className={styles.orderLine}>
         <div>Processing fee</div>
         <div>1</div>
-        <div>$1.52</div>
+        <div>$0.52</div>
       </div>
       <hr />
       <div className={styles.contactSection}>

@@ -21,6 +21,24 @@
 .main {
   background-color: white;
   height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+.side {
+  border: 1px solid lightgray;
+  background-color: white;
+}
+
+.rightmain {
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightmain h1 {
+  color: #c40500;
 }
 
 .footer {
